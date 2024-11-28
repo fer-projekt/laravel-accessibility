@@ -1,9 +1,7 @@
 {
     "name": "fer-projekt/laravel-accessibility",
-    "description": "A Laravel package for accessibility features.",
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Ohad Goldstein",
@@ -11,18 +9,17 @@
         }
     ],
     "require": {
-        "php": ">=8.0", 
-        "laravel/framework": ">=5.0"
+        "laravel/framework": "5.*|^6"
     },
     "autoload": {
         "psr-4": {
-            "FerProjekt\\Accessibility\\": "src/"
+            "Oh4d\\Accessibility\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FerProjekt\\Accessibility\\ServiceProvider"
+                "Oh4d\\Accessibility\\ServiceProvider"
             ]
         }
     }
