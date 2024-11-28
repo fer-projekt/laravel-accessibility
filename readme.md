@@ -21,14 +21,6 @@ See more options in `config/accessibility.php`
 ACCESSIBILITY_ENABLED=true
 ``` 
 
-### Laravel 5.5+:
-
-If you don't use auto-discovery, add the ServiceProvider to the providers array in `config/app.php`
-
-```php
-Oh4d\Accessibility\ServiceProvider::class
-```
-
 Copy the package config and translation files to your local with the publish command:
 
 ```shell
