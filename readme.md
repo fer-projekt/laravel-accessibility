@@ -10,7 +10,7 @@ The package adds a number of helpful accessibility features with a minimum amoun
 Require this package with composer.
 
 ```shell
-composer require oh4d/laravel-accessibility dev-dev
+composer require fer-projekt/laravel-accessibility dev-master
 ```
 
 Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
